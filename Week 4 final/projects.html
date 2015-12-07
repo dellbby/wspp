@@ -1,0 +1,138 @@
+<!doctype html>  
+
+<!--Delia Akbari-->
+
+<html lang="en">
+<head> 
+<div id="id">
+<input name="logOut" type="button" id="logOut" value="Sign Out"/> / <a href="https://twitter.com/share" class="twitter-share-button" data-via="dellbby">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></div> 
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	
+	<title>Crystal's Candy</title>
+	
+	<!-- CSS concatenated and minified via ant build script-->
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/jquery-ui.min.css">
+	<link rel="stylesheet" href="css/jquery-ui.theme.min.css">
+      <link rel="stylesheet" href="//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
+
+	<!-- end CSS-->
+</head>
+
+<body>
+	
+	<!-- main -->
+    <div id="container"> 
+    <div id="header"> </div>
+    
+    <div id="navigation">
+    <ul>
+  <li><a href="index.html" class="link1">Home</a></li>
+  <li><a href="#" class="link1">Shop</a></li>
+  <li><a href="register.html" class="link1">Register</a></li>
+  <li><a href="admin.html" class="link1">Admin</a></li>
+  <li><a href="projects.html" class="link1">Projects</a></li>
+  <li><a href="#" class="link1">FAQ</a></li>
+  <li><a href="#" class="link1">Contact</a></li>
+  <li><a href="#" class="link1">Blog</a></li>
+  
+</ul>
+</div>
+
+
+
+
+	<div id="proj_container">
+
+	<div class="logoutbox">
+	<input type="button" class="dashboard" value="Dashboard" />
+    <input name="profilebtn" type="button" value="Profile" id="profilebtn"/>
+	<input name="logOut" type="button" id="logOut" value="Sign Out"/> 
+    
+	</div>
+
+	<p><a href="#" class="modalClick">Add+</a></p>
+	
+	<div id="overlay">
+		<div class="resizable" id="modal">
+	    	<span class="close">X</span>
+			<h3 class="header">Add Project</h3>
+	 		<div id="add">
+	      		<form id="addForm">
+					<label>Project Name: </label>
+					<input name="projectName"type="text" id="projectName"/><br>
+					<label>Project Description: </label>
+					<input class="tags" name="projectDescription" type="text" id="projectDescription" /><br>
+					<label>Project Due Date: </label>
+					<input name="projectDueDate" type="text" id="projectDueDate" class="mydatepicker" /><br>
+					<label for="status">Select status:</label>
+					<br>
+	     
+	     
+	     
+					<label class="mystatus">
+						<input type="radio" name="status" id="urgent"> <img src="images/urgent.png" width="69" height="75">
+					</label>
+
+					<label class="mystatus">
+						<input type="radio" name="status" id="normal"> <img src="images/normal1.png" width="69" height="75">
+					</label>
+
+					<label class="mystatus">
+						<input type="radio" name="status" id="delayed"><img src="images/late.png" width="69" height="75">
+					</label>
+
+					<label class="mystatus">
+						<input type="radio" name="status" id="complete"><img src="images/done.png" width="69" height="75"><br>
+					</label> 
+	                              
+					<br>
+					<input name="addButton" type="button" id="addButton" value="Add" />
+				</form>
+
+	  		</div>
+		</div>	
+	</div>
+	
+	<div>
+		
+		<h1>Current Projects</h1>
+<ol id="selectable">
+		<div class="projects" id="sortable" >
+
+</ol>
+		</div>
+
+	
+	</div>
+
+
+	<!-- jquery -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<!-- plugins -->
+
+	<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+    
+	
+	<!-- main -->
+	<script type="text/javascript" src="js/main.js"></script>
+
+
+
+
+
+<div id="footer"></div>
+<div id="foot">
+<br/>
+<center>
+<hr />
+Copyright &copy; 2015 - www.crystalcandy.com - Delia Akbari
+
+
+</center>
+</div></div></body></html>
+
+

@@ -1,0 +1,123 @@
+/* Hello! Here is my custom CSS */
+/* Body CSS */
+body {
+	background: white;
+	background-repeat:repeat;
+	background-attachment:fixed;
+} 
+/* Container */
+#container { 
+  width: 100%; 
+  background: #FFFFFF;
+  margin: 0 auto; 
+  border: 1px solid #000000;
+  text-align: left; 
+  padding:5px;
+}
+/* H1 CSS */
+h1 {
+	display:block;
+	font-weight:normal;
+	font-family:arial;
+	font-size:20pt;
+	line-height:20pt; 
+	letter-spacing:1px;
+	text-transform:lowercase;
+	border-bottom-color:#bbbbbb;
+	border-bottom-width:1px;
+	border-bottom-style:dashed;
+	border-left-style:solid;
+	border-left-color:#bbbbbb;
+	border-left-width:0px;
+	border-right-style:solid;
+	border-right-color:#bbbbbb;
+	border-right-width:0px;
+}
+
+h1:first-letter {
+color: #00aeef; 
+} 
+
+/* Footer CSS */
+footer {
+	text-align:center;
+}
+
+/* Links CSS */
+a:link {
+    color: #00aeef;
+    text-decoration: none;
+    font-family:century gothic;
+	font-size:14pt;
+	line-height:17pt;
+	text-transform:uppercase;
+	letter-spacing:1px;
+	font-weight:bold;
+	display:block;
+	background-color:black;
+	padding-left:4px;
+	padding-right:4px;
+	border-bottom-width:1px;
+	border-bottom-style:dashed;
+	border-bottom-color:#fff;
+}
+
+a:hover{
+	color:#fff;
+}
+
+/* H2 CSS */
+h2 {
+    color: #000;
+    font-family:century gothic;
+	font-size:44pt;
+	line-height:29pt;
+	text-transform:uppercase;
+	letter-spacing:1px;
+}
+
+ /*form input properties*/ 
+input{
+	background-color:#D1D0CE;
+
+	}
+input:focus {
+    background-color: #fff;
+}
+
+/*table properties*/
+table,th,td{
+	border:1px solid #000;
+	border-collapse:collapse;
+	width:43.750em;
+	padding:5px;
+	letter-spacing:0.125em;
+	font-size:1em;
+	text-align: left;
+	
+}
+	
+tr:hover {
+    background-color: #ffff99;
+}
+
+th {
+    background-color: #43858E;
+    color: white;
+}
+
+
+@media (min-width: 768px) {
+  .container {
+    width: 46.875em;
+  }
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }

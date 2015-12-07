@@ -1,0 +1,63 @@
+/*  CSS Document                             */
+/*  Written by Chris Converse for Lynda.com  */
+
+/* styles */
+
+body { font: 14px Arial; margin: 0px; padding: 30px; background-color: #fff; }
+a, a:visited { color: #F06eaa; }
+h1.fpo_text { color: #F06eaa; font-family: Times; font-size: 24px; }
+p.fpo_text { color:#ececec; font-family: Times; font-size: 16px; }
+
+.sp h2 { font-size: 1.15em; margin: 0 0 .5em 0; color:#F06eaa; }
+.sp p { font-size: 1em; margin: 0 0 1em 0; }
+
+/* layout */
+.sp { width: 500px; position: relative; float: right; margin: 0px 0px 10px 25px; }
+
+.sp .tabs { position: relative; z-index: 101; display: none;color:#00bff3 }
+
+.sp .tabs span {
+	display: inline-block;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	padding: 8px 12px 8px 12px;
+	margin: 0px;
+	background-color: #fff;
+	cursor: pointer;
+	position: relative;
+}
+
+.sp .tabs span:first-child {
+	padding-left: 15px;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	-webkit-border-top-left-radius: 12px;
+	-moz-border-radius-topleft: 12px;
+	border-top-left-radius: 12px;
+}
+
+.sp .tabs span:last-child {
+	padding-right: 15px;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	-webkit-border-top-right-radius: 12px;
+	-moz-border-radius-topright: 12px;
+	border-top-right-radius: 12px;
+}
+
+.sp .tabs span.selected {
+	color: #999;
+	border-bottom: 1px solid #fff;
+}
+
+.sp .panel_container {
+	position: relative;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	overflow: hidden;
+	z-index: 100;
+	margin-top: -1px;
+}
+
+.sp .panel_container .panel .panel_content { padding: 15px 15px 5px 15px; }
+
